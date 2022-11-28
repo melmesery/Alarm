@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+body {
+  min-height: 100vh;
+  background: #4b97f0;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.alarm-area {
+  width: 440px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.alarm-btn {
+  background: #4b97f0;
+}
+
+.alarm-select.disable {
+  opacity: 0.6;
+  pointer-events: none;
+}

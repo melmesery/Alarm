@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="icon" href="" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container alarm-area">
+      <div class="card rounded-0 shadow">
+        <div class="alam-icon mx-auto my-5">
+          <img src="images/alarm-icon.png" width="70px" alt="alarm" />
+        </div>
+        <!-- card icon -->
+        <div class="clock text-center">00 : 00 : 00 AM</div>
+        <!-- clock -->
+        <div class="row alarm-select my-3 g-0 w-75 mx-auto">
+          <div class="col col-4-md text-center">
+            <select class="rounded-0 py-2">
+              <option value="Hour" selected hidden>Hour</option>
+            </select>
+          </div>
+          <div class="col col-4-md text-center">
+            <select class="rounded-0 py-2">
+              <option value="Minute" selected hidden>Minute</option>
+            </select>
+          </div>
+          <div class="col col-4-md text-center">
+            <select class="rounded-0 py-2">
+              <option value="AM/PM" selected hidden>AM/PM</option>
+            </select>
+          </div>
+        </div>
+        <!-- alarm-drop -->
+        <button class="btn alarm-btn py-2 my-1 mx-4 text-white">
+          Set Alarm
+        </button>
+        <!-- alarm button -->
+      </div>
+      <!-- card -->
+    </div>
+    
+
+    <script src="./js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+  </body>
+</html>
